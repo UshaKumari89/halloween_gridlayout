@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    height:100vh;
+    margin: auto;
+    background-color: rgb(254, 250, 244);
+
+}
+
+.header{
+    background-color: #3DE07E;
+    height: 28rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+
+
+ 
+}
+.nav a{
+    color: black
+}
+.header_img h1 {
+    Font-family: Roboto;
+    Font-style: Bold;
+    Font-size: 2.5rem;
+   Vertical-align: Center;
+}
+.header_img{
+    margin-top: 1.9rem;
+
+ 
+}
+.menu{
+    background-color: black;
+    margin-top: -.1rem;
+    padding: 5rem;
+  
+  
+   
+}
+.menu_card__box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+
+}
+.menu_card img{
+    width:18rem
+  
+
+}
+
+.menu_card p{
+    color: #fff;
+}
+
+button{
+    padding:8px 16px;
+    border-radius:4px;
+    background-color: #E83F57;
+    color: #fff;
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+}
+.monster{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1.5rem
+}
+.monster-card{
+    height:38rem ;
+    background-color: #fff;
+    width:22rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.monster-card img{
+   
+    width:22rem;    
+}
+.monster-card__info{
+    padding: .0rem 1rem;
+}
+.monster-card__info p{
+    font-size: 16px;
+    font-family: fira-sans;
+}
+/*Footer start*/
+
+.footer{
+  margin-top: -1rem;
+    background-color: #333;
+    height:10rem;
+    color:#fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+  
+ justify-items: center;
+ align-items: center;
+  
+}
+.nav__link a {
+    color: #fff;
+    margin-left: -2.5rem;
+}
+
+.fa-brands{
+    margin-right: .5rem;
+    font-size: 1.5rem;
+    margin-top:.5rem;
+}
+
+/*Footer end*/
